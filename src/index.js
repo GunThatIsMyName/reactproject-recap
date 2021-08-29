@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './movieMenu/App';
+import App from './loveActually/App';
 
 ReactDOM.render(
   <React.StrictMode>
