@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './modal/App';
-import { AppProvider } from './modal/context';
+import App from './cart/App';
+import AppProvider from './cart/Context';
+import "./cart/styles/styles.css"
 
 ReactDOM.render(
   <React.StrictMode>

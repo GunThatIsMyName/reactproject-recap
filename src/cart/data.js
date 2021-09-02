@@ -1,0 +1,8 @@
+export const LOADING = "LOADING"
+export const GetData = "GetData"
+export const INC = "INC"
+export const DEC = "DEC"
+export const CONTROL = "CONTROL"
+export const REMOVE = "REMOVE"
+export const MODIFY = "MODIFY"
+export const CLEAR = "CLEAR"
