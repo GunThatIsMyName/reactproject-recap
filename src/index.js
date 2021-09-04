@@ -1,14 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './cart/App';
-import AppProvider from './cart/Context';
-import "./cart/styles/styles.css"
+import App from './pagination/App';
 
 ReactDOM.render(
   <React.StrictMode>
-    <AppProvider>
-      <App/>
-    </AppProvider>
+      <App/>    
   </React.StrictMode>,
   document.getElementById('root')
 );
