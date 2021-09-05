@@ -1,10 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './pagination/App';
+import App from './pagination/part2/App';
+import AppProvider from './pagination/part2/Context';
 
 ReactDOM.render(
   <React.StrictMode>
-      <App/>    
+    <AppProvider> 
+      <App />
+    </AppProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );
