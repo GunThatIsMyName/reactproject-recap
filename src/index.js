@@ -1,11 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './pagination/part2/App';
-import AppProvider from './pagination/part2/Context';
+import App from './photo/part1/App';
+import AppProvider from './photo/part1/context';
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <AppProvider> 
+    <AppProvider>
       <App />
     </AppProvider>
   </React.StrictMode>,
