@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './photo/part1/App';
-import AppProvider from './photo/part1/context';
+import App from './photo/part2/App';
+import AppProvider from './photo/part2/context';
+
 
 
 ReactDOM.render(
