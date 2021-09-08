@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './photo/part2/App';
-import AppProvider from './photo/part2/context';
+import App from './movie/App';
+import AppProvider from './movie/Context';
 
 
 
@@ -9,7 +9,7 @@ ReactDOM.render(
   <React.StrictMode>
     <AppProvider>
       <App />
-    </AppProvider>
+    </AppProvider> 
   </React.StrictMode>,
   document.getElementById('root')
 );
