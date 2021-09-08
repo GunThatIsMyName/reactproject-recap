@@ -1,8 +1,10 @@
 import React, { useRef } from "react";
 import { FaSearch } from "react-icons/fa";
+import { useFetch } from "../part1/useFetch";
 import Category from "./category";
 import { useSearhContext } from "./context";
 import { data } from "./data";
+
 
 const SearchForm = ()=>{
     const {setQuery,setPage} = useSearhContext();
@@ -13,7 +15,6 @@ const SearchForm = ()=>{
         setPage(1)
         textRef.current.value='';
     }
-
     return(
         <section className="search">
             <form onSubmit={handleSubmit} className="search-form">

@@ -8,7 +8,6 @@ export const useImageFetch = () => {
   const [loading, setLoading] = useState(true);
   const [list, setList] = useState([]);
   const [page, setPage] = useState(1);
-  
   const fetchList = async () => {
     setLoading(true);
     let api;
